@@ -1,3 +1,7 @@
+body{
+	margin: 0;
+}
+
 {
 	width: 1020px;
 	margin: 0 auto;
@@ -32,18 +36,33 @@ header h4{
 	text-align: center;
 }
 
-#donatesaying{
-	width: 300px;
+#donatesaying{ 
+	border: solid black 1px;
 	text-align: center;
 }
 
-header h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	margin-top: 250px;
-	border: solid black 1px;
-	
+h1{
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+	font-size: 4em;
+	padding-bottom: 1px;
+/*	border: solid black;
+*/}
+
+.bottomborder hr{
+	color: white;
+	width: 300px;
+	border-style: solid;
+	margin-top: -40px;
+
+}
+
+ul li {
+	display: inline-block;
+	padding: .2em;
+}
+a:hover{
+	color: white;
 }
 
 .words1{
@@ -100,12 +119,14 @@ p{
 }
 
 #regionselect{
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 	text-align: center;
+	background-color: white;
+	margin: 0;
 }
 
 #regionlist{
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 	/*margin-right: 90px*/
 }
 
@@ -119,6 +140,7 @@ p{
 	border: solid black 2px;
 	border-radius: 15px;
 	padding: 10px;
+	margin-bottom: 5px;
 	/*margin-left: 50px;*/
 }
 
@@ -127,16 +149,17 @@ p{
 }
 
 #pyment{
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 	text-align: center;
+	background-color: grey;
 }
 
 #paypal{
-	border: solid black 1px;	
+	/*border: solid black 1px;	*/
 }
 
 #creditcards{
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 }
 
 
