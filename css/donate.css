@@ -1,0 +1,101 @@
+{
+	width: 1020px;
+	margin: 0 auto;
+}
+nav{
+	position: fixed;
+}
+
+.navbar{
+/*	font-size: 2em;
+*/}
+
+.navbar{
+/*	background-color: rgba(0,0,0,0.5);
+*/}
+
+nav ul li{
+	display: inline;
+	padding-left: 100px;
+	color: black;
+	padding-left: 150px; 
+}
+header h3{
+	padding-top: 15em;
+	color: black;
+	text-align: center;
+}
+
+header h4{
+/*	margin-top: 8em;
+*/	color: black;
+	text-align: center;
+
+
+}
+
+header h1{
+/*	margin-top: 9em;
+*/
+	text-align: center;
+	
+}
+
+.words1{
+	color: green;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
+/*	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm9.staticflickr.com%2F8347%2F8251456680_821f0818d4_b.jpg&width=400&height=266");
+*/    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin-left: -6.5px;
+    margin-right: -8px;
+    margin-top: -10px;
+}
+body{
+	background-color: #acffe6;
+	height: 100%;
+}
+
+body h3{
+/*	padding-top: em;
+*/	color: black;
+	text-align: center;
+}
+
+body h4{
+/*	margin-top: 8em;
+*/	color: black;
+	text-align: center;
+
+
+}
+
+body h1{
+/*	margin-top: 9em;
+*/
+	text-align: center;
+	
+}
+p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
