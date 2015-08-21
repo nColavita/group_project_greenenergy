@@ -90,6 +90,39 @@ p{
 	text-align: center;
 }
 
+#regiontitle{
+	font-size: 2em;
+}
+
+#regionselect{
+	border: solid red 1px;
+	text-align: center;
+}
+
+#regionlist{
+	border: solid red 1px;
+}
+
+#regionlist li{
+	font-size: 1.5em;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#pyment{
+	border: solid black 1px;
+	text-align: center;
+}
+
+#paypal{
+	border: solid black 1px;	
+}
+
+#creditcards{
+	border: solid black 1px;
+}
+
+
 
 
 
