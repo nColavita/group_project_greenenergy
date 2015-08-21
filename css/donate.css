@@ -50,7 +50,7 @@ header h4{
 
 h1{
 	font-family: 'Droid Sans', sans-serif;
-	color: white;
+	color: black;
 	font-size: 4em;
 	padding-bottom: 1px;
 	margin-top: 200px;
@@ -58,7 +58,7 @@ h1{
 */}
 
 .bottomborder hr{
-	color: white;
+	color: black;
 	width: 300px;
 	border-style: solid;
 	margin-top: -40px;
