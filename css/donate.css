@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	background-color: black;
 }
 
 {
@@ -37,8 +38,14 @@ header h4{
 }
 
 #donatesaying{ 
-	border: solid black 1px;
-	text-align: center;
+	/*border: solid black 1px;*/
+	margin-left: 490px;
+}
+
+#content{
+	/*border: solid red 1px;*/
+	font-family: 'Droid Sans', sans-serif;
+	width: 300px;
 }
 
 h1{
@@ -46,6 +53,7 @@ h1{
 	color: white;
 	font-size: 4em;
 	padding-bottom: 1px;
+	margin-top: 200px;
 /*	border: solid black;
 */}
 
@@ -74,9 +82,9 @@ a{
 	color: black;
 }
 header{
-	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
+	background-image: url("../img/content/backgroundtest.png");
 /*	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm9.staticflickr.com%2F8347%2F8251456680_821f0818d4_b.jpg&width=400&height=266");
-*/    background-repeat: no-repeat;
+*/  background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     top: 0;
@@ -86,7 +94,7 @@ header{
     margin-top: -10px;
 }
 body{
-	background-color: #acffe6;
+
 	height: 100%;
 }
 
@@ -122,7 +130,8 @@ p{
 	/*border: solid red 1px;*/
 	text-align: center;
 	background-color: white;
-	margin: 0;
+	margin: -32px;
+	margin-bottom: 0px;
 }
 
 #regionlist{
@@ -137,7 +146,7 @@ p{
 }
 
 .regions li{
-	border: solid black 2px;
+	border: solid #F5F5F5 2px;
 	border-radius: 15px;
 	padding: 10px;
 	margin-bottom: 5px;
@@ -146,12 +155,16 @@ p{
 
 .regions ul{
 	padding: 0;
+	margin-bottom: 0;
+}
+
+.reghov{
 }
 
 #pyment{
 	/*border: solid black 1px;*/
 	text-align: center;
-	background-color: grey;
+	background-color: #F5F5F5;
 }
 
 #paypal{
