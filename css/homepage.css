@@ -10,45 +10,67 @@ nav{
 /*	font-size: 2em;
 */}
 
+.navbar a{
+	font-family: 'Droid Sans', sans-serif;
+	border-bottom: solid white;
+}
+
 .navbar{
 /*	background-color: rgba(0,0,0,0.5);
 */}
-
-nav ul li{
-	display: inline;
-	padding-left: 100px;
-	color: black;
-	padding-left: 150px; 
-}
-header h3{
-	padding-top: 15em;
-	color: black;
-	text-align: center;
-}
-
-header h4{
-/*	margin-top: 8em;
-*/	color: black;
-	text-align: center;
-
-
-}
-
-header h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	
-}
-
-.words1{
-	color: green;
-}
 
 a{
 	text-decoration: none;
 	color: black;
 }
+
+nav a:hover {
+      background-color: grey;
+}
+nav ul li{
+	display: inline;
+/*	padding-left: 100px;
+*/	color: black;
+	padding-left: 130px; 
+	letter-spacing: 3px;
+	font-weight: bold;
+	opacity: .70;
+/*	border-bottom: solid white; 
+*/}
+
+.words1{
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 8px;
+	word-spacing: 5px;
+}
+
+h1{
+	font-size: 4em;
+	padding-bottom: 1px;
+/*	border: solid black;
+*/}
+
+.bottomborder hr{
+	width: 300px;
+	border-style: solid;
+	margin-top: -40px;
+
+}
+
+
+h2{
+/*	font-size: 4em;
+	border-bottom: outset 5px black;*/
+	color: black;
+	font-size: 1.5em;
+	margin-bottom:-30px; 
+/*	padding-bottom: 10px;	
+*/}
+
 header{
 	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
 /*	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm9.staticflickr.com%2F8347%2F8251456680_821f0818d4_b.jpg&width=400&height=266");
@@ -66,26 +88,6 @@ body{
 	height: 100%;
 }
 
-body h3{
-/*	padding-top: em;
-*/	color: black;
-	text-align: center;
-}
-
-body h4{
-/*	margin-top: 8em;
-*/	color: black;
-	text-align: center;
-
-
-}
-
-body h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	
-}
 p{
 	text-align: center;
 }
