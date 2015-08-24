@@ -13,13 +13,13 @@ body{
 }
 .navbar{
 	/*border: solid black 1px;*/
-	background-color: #1996BF;
+	background-color: white;
 	text-align: right;
 	height: 100px;
 }
 
 .navbar ul{
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 	padding-top: 40px;
 }
 
@@ -30,7 +30,7 @@ body{
 	color: black;
 	text-align: center;
 	margin-right: 20px;
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 }
 
 header h3{
@@ -57,11 +57,12 @@ header h4{
 }
 
 h1{
+	/*border: solid black 1px;*/
 	font-family: 'Droid Sans', sans-serif;
 	color: black;
 	font-size: 4em;
 	padding-bottom: 1px;
-	margin-top: 200px;
+	margin-top: 10px;
 /*	border: solid black;
 */}
 
@@ -78,7 +79,7 @@ ul li {
 	padding: .2em;
 }
 a:hover{
-	color: white;
+	color: #D1D1D1;
 }
 
 .words1{
@@ -181,7 +182,7 @@ p{
 }
 
 footer{
-	background-color: #1996BF;
+	background-color: white;
 	text-align: right;
 	/*border: solid black 1px;*/
 }
@@ -193,6 +194,10 @@ footer li{
 
 #footnav{
 	height: 100px;
+}
+
+#footnav ul{
+	padding-top: 40px;
 }
 
 footer ul{
