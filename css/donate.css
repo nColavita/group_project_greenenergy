@@ -1,25 +1,42 @@
+body{
+	margin: 0;
+	background-color: white;
+}
+
 {
 	width: 1020px;
 	margin: 0 auto;
 }
-nav{
-	position: fixed;
+
+#topnavigation{
+	height: 250px;
 }
 
+#logo{
+	float: left;
+}
 .navbar{
-/*	font-size: 2em;
-*/}
+	/*border: solid black 1px;*/
+	background-color: white;
+	height: 100px;
+}
 
-.navbar{
-/*	background-color: rgba(0,0,0,0.5);
-*/}
+.navbar ul{
+	/*border: solid black 1px;*/
+	text-align: right;
+	padding-top: 40px;
+}
 
-nav ul li{
-	display: inline;
-	padding-left: 100px;
+.navbar li{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: .8em;
+	display: inline-block;
 	color: black;
-	padding-left: 150px; 
+	text-align: center;
+	margin-right: 20px;
+	/*border: solid red 1px;*/
 }
+
 header h3{
 	padding-top: 15em;
 	color: black;
@@ -30,15 +47,43 @@ header h4{
 /*	margin-top: 8em;
 */	color: black;
 	text-align: center;
+}
 
+#donatesaying{ 
+	/*border: solid black 1px;*/
+	margin-left: 490px;
+}
+
+#content{
+	/*border: solid red 1px;*/
+	font-family: 'Droid Sans', sans-serif;
+	width: 300px;
+}
+
+h1{
+	/*border: solid black 1px;*/
+	font-family: 'Droid Sans', sans-serif;
+	color: black;
+	font-size: 4em;
+	padding-bottom: 1px;
+	margin-top: 10px;
+/*	border: solid black;
+*/}
+
+.bottomborder hr{
+	color: black;
+	width: 300px;
+	border-style: solid;
+	margin-top: -40px;
 
 }
 
-header h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	
+ul li {
+	display: inline-block;
+	padding: .2em;
+}
+a:hover{
+	color: #D1D1D1;
 }
 
 .words1{
@@ -50,9 +95,9 @@ a{
 	color: black;
 }
 header{
-	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
+	background-image: url("../img/content/backgroundtest.png");
 /*	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm9.staticflickr.com%2F8347%2F8251456680_821f0818d4_b.jpg&width=400&height=266");
-*/    background-repeat: no-repeat;
+*/  background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     top: 0;
@@ -62,7 +107,7 @@ header{
     margin-top: -10px;
 }
 body{
-	background-color: #acffe6;
+
 	height: 100%;
 }
 
@@ -90,12 +135,80 @@ p{
 	text-align: center;
 }
 
+#regiontitle{
+	font-size: 2em;
+}
 
+#regionselect{
+	/*border: solid red 1px;*/
+	text-align: center;
+	background-color: white;
+	margin: -32px;
+	margin-bottom: 0px;
+}
 
+#regionlist{
+	/*border: solid red 1px;*/
+	/*margin-right: 90px*/
+}
 
+#regionlist li{
+	font-size: 1.5em;
+	list-style-type: none;
+	display: inline-block;
+}
 
+.regions li{
+	border: solid #F5F5F5 2px;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 5px;
+	/*margin-left: 50px;*/
+}
 
+.regions ul{
+	padding: 0;
+	margin-bottom: 0;
+}
 
+#pyment{
+	/*border: solid black 1px;*/
+	text-align: center;
+	background-color: #F5F5F5;
+}
 
+#paypal{
+	/*border: solid black 1px;	*/
+}
 
+#creditcards{
+	/*border: solid black 1px;*/
+}
+
+footer{
+	background-color: white;
+	text-align: right;
+	/*border: solid black 1px;*/
+}
+
+footer li{
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#footnav{
+	height: 100px;
+}
+
+#footnav ul{
+	padding-top: 40px;
+}
+
+footer ul{
+	margin: 0;
+}
+
+footer li{
+	display: inline-block;
+}
 
