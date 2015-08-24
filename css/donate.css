@@ -11,15 +11,19 @@ body{
 #topnavigation{
 	height: 250px;
 }
+
+#logo{
+	float: left;
+}
 .navbar{
 	/*border: solid black 1px;*/
 	background-color: white;
-	text-align: right;
 	height: 100px;
 }
 
 .navbar ul{
 	/*border: solid black 1px;*/
+	text-align: right;
 	padding-top: 40px;
 }
 
