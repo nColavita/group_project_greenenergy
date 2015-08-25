@@ -1,5 +1,5 @@
 {
-	width: 1020px;
+	width: 020px;
 	margin: 0 auto;
 }
 /*.topofpage{
@@ -10,9 +10,15 @@ nav{
 /*	margin-left: 750px;
 */	background: white;
 	opacity: .8;
-	padding-right: 17px;
+	padding-left: 17px;
 /*	padding-left: 750px;
 */}
+
+.nav {
+	float: right;
+	text-align: right;
+	width: 975px;
+}
 
 .navbar a{
 	font-family: 'Droid Sans', sans-serif;
@@ -34,6 +40,7 @@ a{
 	color: black;
 }
 
+
 nav a:hover {
       background-color: grey;
 }
@@ -43,8 +50,8 @@ nav ul li{
 	letter-spacing: 3px;
 	font-weight: bold;
 	opacity: .70;
-	padding-left:9.2em; 
-	margin-left: 4.5px; 
+	padding-left:18.2em 0 ; 
+	margin-left: 6.5px; 
 /*	border-bottom: solid white; 
 */}
 
@@ -76,6 +83,8 @@ ul li {
 	display: inline-block;
 	padding: .2em;
 }
+
+
 a:hover{
 	color: white;
 }
