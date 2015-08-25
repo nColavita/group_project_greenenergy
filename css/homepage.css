@@ -2,15 +2,27 @@
 	width: 1020px;
 	margin: 0 auto;
 }
+/*.topofpage{
+	background: black;
+}*/
 nav{
 	position: fixed;
-	margin-left: 750px;
+/*	margin-left: 750px;
+*/	background: white;
+	opacity: .8;
+	padding-right: 17px;
 /*	padding-left: 750px;
 */}
 
 .navbar a{
 	font-family: 'Droid Sans', sans-serif;
 	border-bottom: solid white;
+}
+
+.whitepart p{
+	margin-top: 100px;
+	font-weight: bold; 
+	font-size: 1.2em;
 }
 
 .navbar{
@@ -31,6 +43,8 @@ nav ul li{
 	letter-spacing: 3px;
 	font-weight: bold;
 	opacity: .70;
+	padding-left:9.2em; 
+	margin-left: 4.5px; 
 /*	border-bottom: solid white; 
 */}
 
@@ -47,6 +61,7 @@ nav ul li{
 h1{
 	font-size: 4em;
 	padding-bottom: 1px;
+	text-align: center;
 /*	border: solid black;
 */}
 
@@ -76,7 +91,9 @@ h2{
 .words a{
 	display: inline;
 }
-
+.bluepart h1{
+	text-align: center;
+}
 header{
 	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
 /*	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm9.staticflickr.com%2F8347%2F8251456680_821f0818d4_b.jpg&width=400&height=266");
@@ -89,21 +106,71 @@ header{
     margin-right: -8px;
     margin-top: -10px;
 }
-body{
-	background-color: #00BFFF;
-	height: 100%;
-	font-family: 'Droid Sans', sans-serif;
-
+.whitepart{
+	padding-bottom:5em; 
 }
 
+.whitepart h2{
+	color: green;
+	text-align: center;
+}
+body{
+	background: white;
+/*	background-color: #66CCFF;
+*/	height: 100%;
+	margin: 0;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h3{
+	padding-top: 10px;
+	text-align: center;
+	color: grey;
+}
 p{
 	text-align: center;
 }
+.bluepart{
+	background-color:#E8E8E8;
+	width: 100%;
+	margin: 5px 0;
+	padding-bottom:5em; 
 
+}
 
+.info{
+	text-align: center;
+	margin: 0 auto;
+	width: 1020px;
+}
 
+footer{
+/*	padding-bottom:5em;
+*//*	background: #4682B4;*/
+	margin-top: 0;
+	background: black; 
+	padding-top: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: -50px;
+	
+}
 
+.footnote h3{
+	padding-top: 50px;
+	color: white;
+}
 
+footer img{
+	width: 50px;
+/*	position: absolute;
+*/}
+
+.footnote ul{
+	margin-left: 500px;
+	margin-top: 100px;
+}
 
 
 
