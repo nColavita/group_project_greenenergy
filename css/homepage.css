@@ -1,53 +1,107 @@
 {
-	width: 1020px;
+	width: 020px;
 	margin: 0 auto;
 }
+/*.topofpage{
+	background: black;
+}*/
 nav{
 	position: fixed;
+/*	margin-left: 750px;
+*/	background: white;
+	opacity: .8;
+	padding-left: 17px;
+/*	padding-left: 750px;
+*/}
+
+.nav {
+	float: right;
+	text-align: right;
+	width: 975px;
 }
 
-.navbar{
-/*	font-size: 2em;
-*/}
+.navbar a{
+	font-family: 'Droid Sans', sans-serif;
+	border-bottom: solid white;
+}
+
+.whitepart p{
+	margin-top: 100px;
+	font-weight: bold; 
+	font-size: 1.2em;
+}
 
 .navbar{
 /*	background-color: rgba(0,0,0,0.5);
 */}
 
-nav ul li{
-	display: inline;
-	padding-left: 100px;
-	color: black;
-	padding-left: 150px; 
-}
-header h3{
-	padding-top: 15em;
-	color: black;
-	text-align: center;
-}
-
-header h4{
-/*	margin-top: 8em;
-*/	color: black;
-	text-align: center;
-
-
-}
-
-header h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	
-}
-
-.words1{
-	color: green;
-}
-
 a{
 	text-decoration: none;
 	color: black;
+}
+
+
+nav a:hover {
+      background-color: grey;
+}
+nav ul li{
+	display: inline;
+	color: black;
+	letter-spacing: 3px;
+	font-weight: bold;
+	opacity: .70;
+	padding-left:18.2em 0 ; 
+	margin-left: 6.5px; 
+/*	border-bottom: solid white; 
+*/}
+
+.words1{
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 5px;
+	word-spacing: 2px;
+}
+
+h1{
+	font-size: 4em;
+	padding-bottom: 1px;
+	text-align: center;
+/*	border: solid black;
+*/}
+
+.bottomborder hr{
+	width: 300px;
+	border-style: solid;
+	margin-top: -40px;
+
+}
+
+ul li {
+	display: inline-block;
+	padding: .2em;
+}
+
+
+a:hover{
+	color: white;
+}
+h2{
+/*	font-size: 4em;
+	border-bottom: outset 5px black;*/
+	color: black;
+	font-size: 1.5em;
+	margin-bottom:-30px; 
+/*	padding-bottom: 10px;	
+*/}
+
+.words a{
+	display: inline;
+}
+.bluepart h1{
+	text-align: center;
 }
 header{
 	background-image: url("https://slack-imgs.com/?url=https%3A%2F%2Ffarm7.staticflickr.com%2F6121%2F5990327031_f3b83374f0_b.jpg&width=400&height=266");
@@ -61,39 +115,71 @@ header{
     margin-right: -8px;
     margin-top: -10px;
 }
+.whitepart{
+	padding-bottom:5em; 
+}
+
+.whitepart h2{
+	color: green;
+	text-align: center;
+}
 body{
-	background-color: #acffe6;
-	height: 100%;
+	background: white;
+/*	background-color: #66CCFF;
+*/	height: 100%;
+	margin: 0;
+	font-family: 'Droid Sans', sans-serif;
 }
 
-body h3{
-/*	padding-top: em;
-*/	color: black;
+h3{
+	padding-top: 10px;
 	text-align: center;
-}
-
-body h4{
-/*	margin-top: 8em;
-*/	color: black;
-	text-align: center;
-
-
-}
-
-body h1{
-/*	margin-top: 9em;
-*/
-	text-align: center;
-	
+	color: grey;
 }
 p{
 	text-align: center;
 }
+.bluepart{
+	background-color:#E8E8E8;
+	width: 100%;
+	margin: 5px 0;
+	padding-bottom:5em; 
 
+}
 
+.info{
+	text-align: center;
+	margin: 0 auto;
+	width: 1020px;
+}
 
+footer{
+/*	padding-bottom:5em;
+*//*	background: #4682B4;*/
+	margin-top: 0;
+	background: black; 
+	padding-top: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: -50px;
+	
+}
 
+.footnote h3{
+	padding-top: 50px;
+	color: white;
+}
 
+footer img{
+	width: 50px;
+/*	position: absolute;
+*/}
+
+.footnote ul{
+	margin-left: 500px;
+	margin-top: 100px;
+}
 
 
 
